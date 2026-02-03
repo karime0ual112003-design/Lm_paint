@@ -5,7 +5,7 @@ body{
 
 .herramientas{
     display: flex;
-    background: radial-gradient(circle,#000000, #2e0003,  #5c0006, #8a0009, #b3000c,);
+    background: radial-gradient(circle,#ffffff, #e9c0c0,  #d35a5a, #d65656, #b3000c);
     justify-content: center;
     align-items: center;
     width: 90%;
@@ -110,21 +110,34 @@ body{
 
 .pincel{
 
-    width: 50px;
-    height: 50px;
+     background-image: url(/cssyscript/img/pincel.png);
+    width: 70px;
+    height: 70px;
     background-repeat: no-repeat;
     background-size: contain; 
-    background-position: left center;
-    border-radius: 5000px;
+    border-radius: 50px;
+    margin-right: 0px;
 }
 .cubo{
-    background-image: url(/cssyscript/img/Paint\ Bucket\ Icon.jpg);
-    width: 100%;
-    height: 100%;
+    background-image: url(/cssyscript/img/bote-de-pintura.png);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px ;
+    margin-left: 0px;
     background-repeat: no-repeat;
     background-size: contain; 
+    color: whitesmoke;
     
+    
+}
+.basura{
+     background-image: url(/cssyscript/img/basura.png);
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: contain; 
     border-radius: 50px;
+    margin-right: 0px;
 }
 .grossor{
 
