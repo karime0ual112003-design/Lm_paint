@@ -7,22 +7,21 @@
     <link rel="stylesheet" href="/cssyscript/style.css">
 </head>
 <body>
-    
         <div class="herramientas">
-        <div class="rojo"></div>
-        <div class="amarillo"></div>
-        <div class="azul"></div>
-        <div class="verde"></div>
-        <div class="naranja"></div>
-        <div class="morado"></div>
-        <div class="marron"></div>
-        <div class="blanco"></div>
+        <div class="rojo color-btn" data-color="red"></div>
+        <div class="amarillo color-btn" data-color="yellow"></div>
+        <div class="azul color-btn" data-color="blue"></div>
+        <div class="verde color-btn" data-color="green"></div>
+        <div class="naranja color-btn" data-color="orange"></div>
+        <div class="morado color-btn" data-color="purple"></div> <div class="marron color-btn" data-color="brown"></div>
+        <div class="blanco color-btn" data-color="white"></div>
+        <div class="negro color-btn activo" data-color="black"></div> </div>
         
-        <div class="negro"></div>
+        
         
         </div>
         
-        <div class = "Bloquededibujo"></div>
+        <canvas id="lienzo" class="Bloquededibujo"></canvas>
         <div class="herramientas">
             <div class = "cubo"></div>
             <div class = "pincel"></div>
@@ -34,6 +33,6 @@
             </div>
         </div>
         
-        <script src="script.js"></script>
+        <script src="/cssyscript/script.js"></script>
 </body>
 </html>
